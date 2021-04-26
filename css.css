@@ -1,0 +1,371 @@
+
+.caja1{
+	position: absolute;
+	top: 0%;
+	right: 0%;
+	height: 100%;
+	width: 70%;
+	background-color: black;
+}
+
+.periodo1{
+	top: 0%;
+	left: 0%;
+	height: 48.5%;
+	width: 49%;
+	background-color: #00FF87;
+	position: absolute;
+	opacity: 1;
+	cursor: pointer;
+	border: white 0.5vw solid;
+	color: white;
+	font-size: 7vw;
+	font-family: 'Yusei Magic';
+	text-align: center;
+	animation-duration: 1s;
+  	animation-name: periodoi;
+}
+
+@keyframes periodoi {
+
+0%{top: 0%;
+	left: 0%;
+	height: 0%;
+	width: 0%;
+	font-size: 0vw;
+}
+
+100%{top: 0%;
+	left: 0%;
+	height: 48.5%;
+	width: 49%;
+	font-size: 7vw;
+}
+
+}
+
+.periodo1:hover {
+	
+	opacity: 0.5;
+	
+	
+}
+
+.periodo2{
+	top: 0%;
+	right: 0%;
+	height: 48.5%;
+	width: 49%;
+	background-color: #00FF87;
+	position: absolute;
+	opacity: 1;
+	cursor: pointer;
+	border: white 0.5vw solid;
+	color: white;
+	font-size: 7vw;
+	font-family: 'Yusei Magic';
+	text-align: center;
+	animation-duration: 1s;
+  	animation-name: periodoii;
+}
+
+@keyframes periodoii {
+
+0%{top: 0%;
+	right: 0%;
+	height: 0%;
+	width: 0%;
+font-size: 0vw;}
+
+100%{top: 0%;
+	right: 0%;
+	height: 48.5%;
+	width: 49%;
+font-size: 7vw;}
+
+}
+
+.periodo2:hover {
+	
+	opacity: 0.5;
+	
+}
+
+.periodo3{
+	bottom: 0%;
+	left: 0%;
+	height: 48.5%;
+	width: 49%;
+	background-color: #00FF87;
+	position: absolute;
+	opacity: 1;
+	cursor: not-allowed;
+	border: white 0.5vw solid;
+	color: white;
+	font-size: 7vw;
+	font-family: 'Yusei Magic';
+	text-align: center;
+	animation-duration: 1s;
+  	animation-name: periodoiii;
+}
+
+@keyframes periodoiii {
+
+0%{bottom: 0%;
+	left: 0%;
+	height: 0%;
+	width: 0%;
+font-size: 0vw;}
+
+100%{bottom: 0%;
+	left: 0%;
+	height: 48.5%;
+	width: 49%;
+font-size: 7vw;}
+
+}
+
+.periodo3:hover {
+	
+	opacity: 0.5;
+	
+}
+
+.periodo4{
+	bottom: 0%;
+	right: 0%;
+	height: 48.5%;
+	width: 49%;
+	background-color: #00FF87;
+	position: absolute;
+	opacity: 1;
+	cursor: not-allowed;
+	border: white 0.5vw solid;
+	color: white;
+	font-size: 7vw;
+	font-family: 'Yusei Magic';
+	text-align: center;
+	animation-duration: 1s;
+  	animation-name: periodoiv;
+  
+}
+
+@keyframes periodoiv {
+
+0%{bottom: 0%;
+	right: 0%;
+	height: 0%;
+	width: 0%;
+font-size: 0vw;}
+
+100%{bottom: 0%;
+	right: 0%;
+	height: 48.5%;
+	width: 49%;
+font-size: 7vw;}
+
+}
+
+.periodo4:hover {
+	opacity: 0.5;
+	
+}
+
+.titulo{
+	top: 38%;
+	left: 32%;
+	height: 20%;
+	width: 35%;
+	background-color: #003F28;
+	position: absolute;
+	border-radius: 5vw;
+	border: white 0.5vw solid;
+	cursor: default;
+	
+}
+.ttitulo{
+	color: white;
+	font-size: 3vw;
+	font-family: 'Yusei Magic';
+	text-align: center;
+	top: 1vw;
+	position: absolute;
+}
+
+
+
+.caja2{
+	position: absolute;
+	top: 20%;
+	left: 0%;
+	height: 60%;
+	width: 20%;
+	border-radius: 4vw;
+	border: white 0.3vw solid;
+	background-color: black;
+	font-family: 'Indie Flower';
+	color: white;
+	animation-duration: 1s;
+  	animation-name: caja;
+
+}
+
+@keyframes caja{
+	0%{left: -50%;}
+	33%{left: 17%;}
+	100%{left: 0%;}
+}
+
+.candado {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	height: 100%;
+	width: 100%;
+	cursor: not-allowed;
+}
+
+.c1{
+	position: absolute;
+	top: 17%;
+	left: 20%;
+	height: 10%;
+	width: 6%;
+	animation-duration: 1s;
+  	animation-name: c;
+}
+
+
+.c1:hover {
+	top: 15%;
+	left: 18%;
+	height: 14%;
+	width: 10%;
+}
+
+.c2{
+	position: absolute;
+	top: 17%;
+	right: 20%;
+	height: 10%;
+	width: 6%;
+	animation-duration: 1s;
+  	animation-name: c;
+}
+
+.c2:hover {
+	top: 15%;
+	right: 18%;
+	height: 14%;
+	width: 10%;
+}
+
+.c3{
+	position: absolute;
+	bottom: 17%;
+	left: 20%;
+	height: 10%;
+	width: 6%;
+	animation-duration: 1s;
+  	animation-name: ci;
+}
+
+.c3:hover {
+	bottom: 15%;
+	left: 18%;
+	height: 14%;
+	width: 10%;
+}
+
+.c4{
+	position: absolute;
+	bottom: 17%;
+	right:  20%;
+	height: 10%;
+	width: 6%;
+	animation-duration: 1s;
+  	animation-name: ci;
+}
+
+.c4:hover {
+	bottom: 15%;
+	right: 18%;
+	height: 14%;
+	width: 10%;
+}
+
+@keyframes c{
+	0%{top: 0%;}
+	33%{top:17%;}
+	66%{top: 15%}
+	100%{top: 17%;}
+}
+
+@keyframes ci{
+	0%{bottom: 0%;}
+	33%{bottom: 7%;}
+	66%{bottom: 15%}
+	100%{bottom: 17%;}
+}
+
+.cuerpo{
+	position: absolute;
+	left: 2.7%;
+	top: 0%;
+	width: 23.99%;
+	height: 100%;
+}
+
+
+.tcaja2{
+	color: white;
+	top: 55%;
+	left: 0%;
+	position: absolute;
+	width: 100%;
+	height: 30%;
+	cursor: default;
+
+}
+
+.nombre{
+
+	font-size: 2.3vw;
+	text-align: center;
+	position: absolute;
+
+}
+
+.info{
+
+	font-size: 1.5vw;
+	text-align: center;
+	position: absolute;
+	top: 80%;
+	left: 20%;
+	
+	
+}
+
+hr{
+	width: 5vw;
+	height: -1vw;
+	bottom: -1.5vw;
+	left: 7.5vw;
+	position: absolute;
+}
+
+.jeta{
+	position: absolute;
+	top: 7%;
+	left: 12%;
+	height: 45%;
+	width: 75%;
+	border-radius: 100%;
+	background-color: white;
+	border: white 0.3vw solid;
+}
+
+.no{
+	display: none;
+}
